@@ -1,0 +1,44 @@
+{
+  "Employees": [
+    {
+      "name": "Tom",
+      "department": "IT",
+      "gender": "Male",
+      "role": "LA",
+      "salary": "2000",
+      "id": 1
+    },
+    {
+      "name": "Jerry",
+      "department": "HR",
+      "gender": "Male",
+      "role": "QP",
+      "salary": "20121",
+      "id": 2
+    },
+    {
+      "name": "Linda",
+      "department": "Marketing",
+      "gender": "Female",
+      "role": "QP",
+      "salary": "30121",
+      "id": 3
+    },
+    {
+      "name": "Gina",
+      "department": "Finance",
+      "gender": "Female",
+      "role": "WQ",
+      "salary": "41225",
+      "id": 4
+    },
+    {
+      "name": "Jake",
+      "department": "Finance",
+      "gender": "Male",
+      "role": "WSQ",
+      "salary": "21333",
+      "id": 5
+    }
+  ]
+}
