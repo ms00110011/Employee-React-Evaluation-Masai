@@ -13,7 +13,7 @@ export const Emp = () => {
 
   React.useEffect(() => {
     getData();
-    getIT()
+    getIT();
     getASC();
     getDSC();
     getMar();
@@ -147,9 +147,9 @@ export const Emp = () => {
 
 
 
-      {data.map((items) => {
+      {data.map((items,id) => {
         return (
-          <div className={styles.box}>
+          <div className={styles.box} key={id}>
             <h4>Name: {items.name}</h4>
             <h4>Department: {items.department}</h4>
             <h4>Gender: {items.gender}</h4>
